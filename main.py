@@ -1,4 +1,5 @@
 import product_backend
+import backend_invantory
 def main():
     to_exit = False
     while not to_exit:
@@ -19,6 +20,8 @@ def main():
             to_exit = True
         elif client_choise == "1":
             product_backend.product_manegment()
+        elif client_choise == "2":
+            backend_invantory.invantory_manegment()
         else:
             print("wrong choise, chuse only from the opshen in the manu ")
 
