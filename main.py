@@ -17,7 +17,7 @@ def main():
         """)
         if client_choise == "5":
             to_exit = True
-        if client_choise == "1":
+        elif client_choise == "1":
             product_backend.product_manegment()
         else:
             print("wrong choise, chuse only from the opshen in the manu ")
